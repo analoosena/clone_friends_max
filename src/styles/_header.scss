@@ -1,0 +1,8 @@
+@use 'variaveis';
+
+.header{
+    background-color: variaveis.$corDeFundo;
+    a{
+        text-transform: uppercase;
+    }
+}
