@@ -1,0 +1,38 @@
+@use 'variaveis';
+
+.hero{
+    min-height: 80vh;
+    background-image: url(../../images/friends-capa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &__logo{
+        max-width: 100%;
+        width: 370px;
+    }
+    &__text{
+        color: variaveis.$corTextos;
+        display: block;
+        max-width: 800px;
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 100px;
+        padding-left: 100px;
+        width: 100%;
+
+        
+        &__sub{
+            display: flex;
+            gap: 10px;
+            padding-left: 40px;
+            padding-bottom: 10px;
+            font-size: 18px;
+        }
+        h5{
+            font-size: 20px;
+            padding-bottom: 30px;
+        }
+
+    }
+}

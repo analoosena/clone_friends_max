@@ -6,6 +6,9 @@
     <title>Assista Friends | Max</title>
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -13,7 +16,7 @@
             <ul>
                 <li>
                     <a href="#">
-                        <img src="./images/logo-max.png" alt="Logo Max">
+                        <img class="header__logo" src="./images/logo-max.png" alt="Logo Max">
                     </a>
                 </li>
                 <li>
@@ -38,18 +41,19 @@
                     <a href="#">Futebol</a>
                 </li>
             </ul>
-        </nav>
-
-        <nav>
-            <button>Entrar</button>
-            <button>Assine Agora</button>
-        </nav>
+            <div class="buttons">
+                <a>Entrar</a>
+                <a class="button">Assine Agora</a>
+            </div>
+            
+        </nav> 
+        
     </header>
 
     <section class="hero">
         <div class="hero__text">
             <h1>
-                <img src="./images/friends-logo.png" alt="Logo Friends">
+                <img class="hero__logo" src="./images/friends-logo.png" alt="Logo Friends">
             </h1>
             <div class="hero__text__sub">
                 <p>1994</p>
@@ -59,7 +63,7 @@
             <h5>
                 Friends: Uma das séries de maior sucesso da TV, "Friends" é uma comédia inteligente e divertida sobre um grupo de amigos que mora em Nova York.
             </h5>
-            <button>Assine Agora</button>
+            <a class="button">Assine Agora</a>
         </div>
 
     </section>

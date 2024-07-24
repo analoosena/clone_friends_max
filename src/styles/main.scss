@@ -1,5 +1,6 @@
 @use 'variaveis';
 @use 'header';
+@use 'hero';
 
 @import url('https://fonts.cdnfonts.com/css/hbo-max-2');
 
@@ -7,6 +8,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'HBO Max', sans-serif;
+    
 }
 
+.button{
+    padding: 10px 20px;
+    background-color: variaveis.$corSecundaria;
+    border-radius: 5px;
+    margin-left: 25px;
+    font-family: 'Open sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}

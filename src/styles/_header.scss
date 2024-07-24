@@ -2,7 +2,34 @@
 
 .header{
     background-color: variaveis.$corDeFundo;
-    a{
-        text-transform: uppercase;
+    padding: 12px;
+    width: 100%;
+    
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
     }
+    nav{
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo{
+        height: 30px;
+    }
+
+    a{
+        font-family: 'Open sans', sans-serif;
+        text-transform: uppercase;
+        font-weight: 770;
+        color: variaveis.$corTextos;
+        font-size: 12px;
+        text-decoration: none;
+        white-space: nowrap;
+}
+
+
 }
