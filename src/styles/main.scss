@@ -8,13 +8,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+}
+
+body {
+    background-color: #120c1d;
 }
 
 .button{
     padding: 10px 20px;
     background-color: variaveis.$corSecundaria;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-left: 25px;
     font-family: 'Open sans', sans-serif;
     text-transform: uppercase;
