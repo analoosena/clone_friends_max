@@ -1,6 +1,7 @@
 @use 'variaveis';
 @use 'header';
 @use 'hero';
+@use 'episodes';
 
 @import url('https://fonts.cdnfonts.com/css/hbo-max-2');
 
@@ -8,10 +9,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-    background-color: #120c1d;
+    background-color: rgb(10, 7, 15);
 }
 
 .button{

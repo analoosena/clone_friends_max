@@ -1,0 +1,37 @@
+@use 'variaveis';
+
+.episodes {
+    max-width: 1140px;
+    margin: 140px auto;
+
+    &__tabs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: variaveis.$corTextos;
+        padding-bottom: 30px;
+
+        h1 {
+            font-size: 34px;
+        }
+
+        form {
+            display: flex;
+            align-items: end;
+
+            select {
+                border: none;
+                outline: none;
+                background-color: transparent;
+                color: variaveis.$corTextos;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
