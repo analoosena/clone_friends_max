@@ -1,9 +1,13 @@
 @use 'variaveis';
 
 .header{
-    background-color: variaveis.$corDeFundo;
+    background-color: rgba($color: variaveis.$corDeFundo, $alpha: 0.88);
     padding: 12px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     
     ul{
         display: flex;

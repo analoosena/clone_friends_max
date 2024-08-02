@@ -1,0 +1,55 @@
+@use 'variaveis';
+
+.sobre {
+    max-width: 1140px;
+    margin: 140px auto;
+
+    h1 {
+        color: variaveis.$corTextos;
+        font-size: 36px;
+        font-weight: 500;
+        padding-bottom: 28px;
+    }
+
+    &__info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        color: variaveis.$corTextos;
+        gap: 15px;
+
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 16px;
+        }
+
+        p {
+            font-size: 19px;
+            padding-bottom: 40px;
+        }
+    }
+
+    &__dados {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: variaveis.$corTextos;
+        gap: 15px;
+
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 16px;
+        }
+
+        p {
+            font-size: 19px;
+            padding-bottom: 16px;
+            max-width: 540px;
+        }
+        
+        a {
+            font-size: 18px;
+            color: #4f8bff;
+        }
+    }
+}
