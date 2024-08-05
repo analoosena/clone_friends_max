@@ -16,43 +16,81 @@
             font-weight: 500;
         }
 
-        form {
+        .tab_button{
+            display: none;
+            flex-direction: column;
+            background-color: rgba(64, 68, 89, 0.5);
+            border-radius: 10px;
+            position: absolute;
+            width: 170px;
+            margin-top: 8px;
+            padding: 7px 10px;
+
+        }
+        .tab_button--option{
+            display: block;
+            width: 100%;
+            background-color: transparent;
+            color: variaveis.$corTextos;
+            text-transform: uppercase;
+            border: none;
+            outline: none;
+            font-weight: bold;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .tab_button--option:hover {
+            background-color: rgba(64, 68, 89, 0.9);
+            border-radius: 10px;
+        }
+        .tab_button--option:focus {
+            background-color: rgba(64, 68, 89, 0.9);
+            border-radius: 10px;
+            border: 2px solid white;
+        }
+
+        .tab_button--option.active {
+            background-color: rgba(64, 68, 89, 0.5);
+            color: white;
+        }
+
+        &__tabs__item {
             display: flex;
+            position: relative;
             align-items: end;
             background-color: transparent;
-
-            select {
-                border: none;
-                outline: none;
-                background-color: transparent;
-                color: variaveis.$corTextos;
-                text-transform: uppercase;
-                font-weight: bold;
-                font-size: 14px;
-                padding: 10px;
-                cursor: pointer;
-
-                option {
-                    background-color: rgba(128, 128, 128, 0.1);
-                    padding: 5px;
-                }
-            }
         }
+        .button_itens{
+            display: flex;
+            gap: 5px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: variaveis.$corTextos;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 14px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
     }
 
     &__list {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 20px;
-        list-style: none;
+        display: none;
+
+        &.active{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 20px;
+            list-style: none;
+        }
+        
 
         &__item {
             padding: 10px;
-            color: variaveis.$corTextos;
-            
-            &.active {
-                display: block;
-            }
+            color: variaveis.$corTextos;         
 
             img {
                 width: 100%;

@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header class="header">
@@ -39,8 +40,8 @@
                 </li>
             </ul>
             <div class="buttons">
-                <a>Entrar</a>
-                <a class="button">Assine Agora</a>
+                <a href="#">Entrar</a>
+                <a href="#" class="button">Assine Agora</a>
             </div>
             
         </nav> 
@@ -68,22 +69,31 @@
     <section class="episodes">
         <nav class="episodes__tabs">
             <h1>Episódios</h1>
-            <form>
-                <select name="temporada" id="temporada">
-                    <option value="Temporada_1">Temporada 1</option>
-                    <option value="Temporada_2">Temporada 2</option>
-                    <option value="Temporada_3">Temporada 3</option>
-                    <option value="Temporada_4">Temporada 4</option>
-                    <option value="Temporada_5">Temporada 5</option>
-                    <option value="Temporada_6">Temporada 6</option>
-                    <option value="Temporada_7">Temporada 7</option>
-                    <option value="Temporada_8">Temporada 8</option>
-                    <option value="Temporada_9">Temporada 9</option>
-                    <option value="Temporada_10">Temporada 10</option>
-                </select>
-            </form>
+            <div class="episodes__tabs__item">
+                <button class="button_itens">
+                    <p class="button_itens-name">
+                        Temporada 1
+                    </p> 
+                    <span>
+                        <svg width="18" height="10" viewBox="0 0 18 10" fill="none" transform="rotate(180)" xmlns="http://www.w3.org/2000/svg"><path d="M17 9L9 0.999999L1 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </span>
+                </button>
+                    <div class="tab_button" id="temporada">
+                        <button type="button" class="tab_button--option" data-tab="temp1">Temporada 1</button>
+                        <button type="button" class="tab_button--option" data-tab="temp2">Temporada 2</button>
+                        <button type="button" class="tab_button--option" data-tab="temp3">Temporada 3</button>
+                        <button type="button" class="tab_button--option" data-tab="temp4">Temporada 4</button>
+                        <button type="button" class="tab_button--option" data-tab="temp5">Temporada 5</button>
+                        <button type="button" class="tab_button--option" data-tab="temp6">Temporada 6</button>
+                        <button type="button" class="tab_button--option" data-tab="temp7">Temporada 7</button>
+                        <button type="button" class="tab_button--option" data-tab="temp8">Temporada 8</button>
+                        <button type="button" class="tab_button--option" data-tab="temp9">Temporada 9</button>
+                        <button type="button" class="tab_button--option" data-tab="temp10">Temporada 10</button>
+                    </div>
+            </div>
         </nav>
-        <ul class="episodes__list">
+        <ul class="episodes__list active" id="temp1">
             <li class="episodes__list__item">
                 <img src="./images/Ep1.avif" alt="Rachel vestida de noiva">
                 <h3>1. Piloto</h3>
@@ -232,6 +242,598 @@
                 <a href="#">Veja mais</a>
             </li>
         </ul>
+
+
+        <ul class="episodes__list" id="temp2">
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/2.1.avif" alt="Rachel com flores">
+                <h3>1. Aquele com a nova namorado do Ross</h3>
+                <p>Rachel abandona noivo no altar e vai morar com Mônica. Descobre que não é fácil ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+        </ul>
+
+        <ul class="episodes__list" id="temp3">
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/3.1.avif" alt="Phoebe com rosquinhas">
+                <h3>1. Aquele Da Fantasia Da Princesa Léia</h3>
+                <p>Ross revela a Rachel uma fantasia dele envolvendo uma certa personagem de ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+        </ul>
+
+        <ul class="episodes__list" id="temp4">
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/4.1.avif" alt="Rachel e Ross conversando">
+                <h3>1. Aquele com a Água-Viva</h3>
+                <p>Ross volta a namorar Rachel sem saber que está assumindo culpa pelo término dele...</p>
+                <a href="#">Veja mais</a>
+            </li>
+        </ul>
+
+        <ul class="episodes__list" id="temp5">
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/5.1.avif" alt="Monica and Chandler">
+                <h3>1. Aquele Depois de Ross Dizer Rachel</h3>
+                <p>Ross e Emily se casam, mas ela não o perdoa por trocar seu nome nos votos. Rache...</p>
+                <a href="#">Veja mais</a>
+            </li>
+        </ul>
+
+        <ul class="episodes__list" id="temp6">
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/6.1.avif" alt="Ross alone">
+                <h3>1. Aquele Depois De Vegas</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+        </ul>
+
+        <ul class="episodes__list" id="temp7">
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/7.1.avif" alt="Ross alone">
+                <h3>1. Aquele com o Momento de Monica</h3>
+                <p>Ross e Rachel acordam de ressaca, e ainda por cima, casados. Chandler e Monica...</p>
+                <a href="#">Veja mais</a>
+            </li>
+        </ul>
+
+        <ul class="episodes__list" id="temp8">
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/8.1.avif" alt="Chandler and Joey">
+                <h3>1. Aquele Depois do "Sim</h3>
+                <p>A recepção do casamento de Monica e Chandler é quase ofuscada pela notícia de qu...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/8.1.avif" alt="Chandler and Joey">
+                <h3>1. Aquele Depois do "Sim</h3>
+                <p>A recepção do casamento de Monica e Chandler é quase ofuscada pela notícia de qu...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/8.1.avif" alt="Chandler and Joey">
+                <h3>1. Aquele Depois do "Sim</h3>
+                <p>A recepção do casamento de Monica e Chandler é quase ofuscada pela notícia de qu...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/8.1.avif" alt="Chandler and Joey">
+                <h3>1. Aquele Depois do "Sim</h3>
+                <p>A recepção do casamento de Monica e Chandler é quase ofuscada pela notícia de qu...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/8.1.avif" alt="Chandler and Joey">
+                <h3>1. Aquele Depois do "Sim</h3>
+                <p>A recepção do casamento de Monica e Chandler é quase ofuscada pela notícia de qu...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/8.1.avif" alt="Chandler and Joey">
+                <h3>1. Aquele Depois do "Sim</h3>
+                <p>A recepção do casamento de Monica e Chandler é quase ofuscada pela notícia de qu...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/8.1.avif" alt="Chandler and Joey">
+                <h3>1. Aquele Depois do "Sim</h3>
+                <p>A recepção do casamento de Monica e Chandler é quase ofuscada pela notícia de qu...</p>
+                <a href="#">Veja mais</a>
+            </li>
+        </ul>
+
+        <ul class="episodes__list" id="temp9">
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/9.1.avif" alt="Rachel pregnant">
+                <h3>1.  Aquele em que Ninguém Faz o Pedido</h3>
+                <p> Rachel está noiva de Joey e não de Ross, que planejava pedi-la em casamento. ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/9.1.avif" alt="Rachel pregnant">
+                <h3>1.  Aquele em que Ninguém Faz o Pedido</h3>
+                <p> Rachel está noiva de Joey e não de Ross, que planejava pedi-la em casamento. ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/9.1.avif" alt="Rachel pregnant">
+                <h3>1.  Aquele em que Ninguém Faz o Pedido</h3>
+                <p> Rachel está noiva de Joey e não de Ross, que planejava pedi-la em casamento. ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/9.1.avif" alt="Rachel pregnant">
+                <h3>1.  Aquele em que Ninguém Faz o Pedido</h3>
+                <p> Rachel está noiva de Joey e não de Ross, que planejava pedi-la em casamento. ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/9.1.avif" alt="Rachel pregnant">
+                <h3>1.  Aquele em que Ninguém Faz o Pedido</h3>
+                <p> Rachel está noiva de Joey e não de Ross, que planejava pedi-la em casamento. ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/9.1.avif" alt="Rachel pregnant">
+                <h3>1.  Aquele em que Ninguém Faz o Pedido</h3>
+                <p> Rachel está noiva de Joey e não de Ross, que planejava pedi-la em casamento. ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/9.1.avif" alt="Rachel pregnant">
+                <h3>1.  Aquele em que Ninguém Faz o Pedido</h3>
+                <p> Rachel está noiva de Joey e não de Ross, que planejava pedi-la em casamento. ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+        </ul>
+
+        <ul class="episodes__list" id="temp10">
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/10.1.avif" alt="Rachel pregnant">
+                <h3>1. Aquele depois do beijo do Joey e da Rachel</h3>
+                <p> Ross beijou Charlie, namorada de Joey. Joey beijou Rachel. Mike pediu Phoebe em  ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/10.1.avif" alt="Rachel pregnant">
+                <h3>1. Aquele depois do beijo do Joey e da Rachel</h3>
+                <p> Ross beijou Charlie, namorada de Joey. Joey beijou Rachel. Mike pediu Phoebe em  ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/10.1.avif" alt="Rachel pregnant">
+                <h3>1. Aquele depois do beijo do Joey e da Rachel</h3>
+                <p> Ross beijou Charlie, namorada de Joey. Joey beijou Rachel. Mike pediu Phoebe em  ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/10.1.avif" alt="Rachel pregnant">
+                <h3>1. Aquele depois do beijo do Joey e da Rachel</h3>
+                <p> Ross beijou Charlie, namorada de Joey. Joey beijou Rachel. Mike pediu Phoebe em  ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/10.1.avif" alt="Rachel pregnant">
+                <h3>1. Aquele depois do beijo do Joey e da Rachel</h3>
+                <p> Ross beijou Charlie, namorada de Joey. Joey beijou Rachel. Mike pediu Phoebe em  ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/10.1.avif" alt="Rachel pregnant">
+                <h3>1. Aquele depois do beijo do Joey e da Rachel</h3>
+                <p> Ross beijou Charlie, namorada de Joey. Joey beijou Rachel. Mike pediu Phoebe em  ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+            <li class="episodes__list__item">
+                <img src="./images/Teporada/10.1.avif" alt="Rachel pregnant">
+                <h3>1. Aquele depois do beijo do Joey e da Rachel</h3>
+                <p> Ross beijou Charlie, namorada de Joey. Joey beijou Rachel. Mike pediu Phoebe em  ...</p>
+                <a href="#">Veja mais</a>
+            </li>
+        </ul>
     </section>
 
     <section class="veja_mais">
@@ -353,5 +955,7 @@
         <h4>Comunicados Para A Imprensa</h4>
         <p>©2024 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. Max é usado sob licença.</p>
     </footer>
+
+    <script src="./main.js"></script>
 </body>
 </html>
