@@ -72,4 +72,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    const hamburgerButton = document.querySelector('.hamburger-button');
+    const headerMenu = document.querySelector('.header__options');
+
+    hamburgerButton.addEventListener('click', function() {
+        headerMenu.classList.toggle('active');
+    });
+
 });

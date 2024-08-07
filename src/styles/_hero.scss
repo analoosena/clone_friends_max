@@ -12,6 +12,10 @@
     justify-content: flex-end;
     padding-right: 38%;
 
+    &__img{
+        display: none;
+    }
+
     &__logo{
         max-width: 100%;
         width: 370px;
@@ -20,6 +24,8 @@
     &__text{
         color: variaveis.$corTextos;
         display: block;
+        top: 0;
+        left: 0;
         max-width: 800px;
         width: 100%;
         margin-left: 100px;
@@ -47,6 +53,15 @@
             margin-left: 0;
             padding: 13px 24px;
         }
+    }
 
+    @media(max-width:768px){
+        background-image: none;
+        .hero__img{
+            display: block;
+            max-width: 768px;
+            width: 100%;
+            
+        }
     }
 }

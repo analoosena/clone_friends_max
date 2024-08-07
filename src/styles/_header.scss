@@ -9,11 +9,30 @@
     left: 0;
     z-index: 1000;
     
+    &__menu{
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger-button{
+        font-size: 25px;
+        color: variaveis.$corTextos;
+        padding: 10px 20px;
+        background-color: transparent;
+        border-radius: 10px;
+        margin-left: 25px;
+        border: none;
+        cursor: pointer;
+        display: none;
+    }
+
     ul{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
         gap: 30px;
+        padding-left: 80px;
+        list-style: none;
     }
     nav{
         display: flex;
@@ -35,5 +54,28 @@
         white-space: nowrap;
 }
 
+    @media(max-width:768px){
+        .header__options{
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+
+            gap: 0;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 220px;
+            background-color: rgba(variaveis.$corDeFundo, 0.6);
+            gap: 15px;
+            padding-bottom: 20px;
+        }
+
+        .hamburger-button{
+            display: block;
+        }
+        .header__options.active {
+            display: flex;
+        }
+    }
 
 }
