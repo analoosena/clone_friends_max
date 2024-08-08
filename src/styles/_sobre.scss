@@ -52,4 +52,40 @@
             color: #4f8bff;
         }
     }
+    
+    @media (max-width:768px) {
+        padding-left: 16px;
+        h1 {
+            font-size: 24px;
+        }
+
+        .sobre {
+            &__info {
+                display: block;
+
+                h3 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 17px;
+                }
+            }
+
+            &__dados {
+                display: block;
+                padding-top: 48px;
+
+                h3 {
+                    font-size: 16px;
+                    padding-top: 16px;
+                }
+
+                p {
+                    font-size: 17px;
+                }
+
+            }
+        }
+    }
 }

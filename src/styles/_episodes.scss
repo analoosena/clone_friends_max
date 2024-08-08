@@ -121,4 +121,28 @@
             }
         }
     }
+
+    @media (max-width:768px) {
+        .episodes__tabs {
+            h1 {
+                font-size: 24px;
+                padding-left: 12px;
+            }
+            &__item {
+                .button_itens {
+                    padding-right: 36px;
+                }
+            }
+        }
+        .episodes__list {
+            display: none;
+    
+            &.active{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                list-style: none;
+            }
+        }
+    }
 }

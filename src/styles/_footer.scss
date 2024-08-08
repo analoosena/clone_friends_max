@@ -46,4 +46,17 @@
         text-align: center;
         font-size: 12px;
     }
+
+    @media (max-width:768px) {
+        max-width: 100%;
+        padding: 0 12px;
+        ul {
+            flex-wrap: wrap;
+        }
+
+        .termos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }
