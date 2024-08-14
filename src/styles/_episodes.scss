@@ -3,6 +3,7 @@
 .episodes {
     max-width: 1140px;
     margin: 140px auto;
+    padding: 30px;
 
     &__tabs {
         display: flex;
@@ -123,6 +124,40 @@
     }
 
     @media (max-width:768px) {
+        padding: 20px;
+        margin: 0;
+        width: 100%;
+        padding-top: 80px;
+
+        .episodes__tabs {
+            h1 {
+                font-size: 24px;
+                padding-left: 12px;
+            }
+            &__item {
+                .button_itens {
+                    padding-right: 36px;
+                }
+            }
+        }
+        .episodes__list {
+            display: none;
+    
+            &.active{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                list-style: none;
+            }
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1023px) {
+        padding: 30px;
+        margin: 0;
+        width: 100%;
+        padding-top: 80px;
+
         .episodes__tabs {
             h1 {
                 font-size: 24px;
