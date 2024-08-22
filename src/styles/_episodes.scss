@@ -11,6 +11,7 @@
         justify-content: space-between;
         color: variaveis.$corTextos;
         padding-bottom: 30px;
+        position: relative;
 
         h1 {
             font-size: 34px;
@@ -26,6 +27,7 @@
             width: 170px;
             margin-top: 8px;
             padding: 7px 10px;
+            position: fixed;
 
         }
         .tab_button--option{

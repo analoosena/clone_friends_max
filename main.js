@@ -18,10 +18,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (buttonRect.bottom + tabButtonHeight > windowHeight) {
             // Se o menu dropdown ultrapassar o fundo da janela, mostre acima do botão
             tabButtonContainer.style.top = `${buttonRect.top - tabButtonHeight}px`;
+            tabButtonContainer.style.bottom = 'auto';
         } else {
             // Caso contrário, mostre abaixo do botão
-            tabButtonContainer.style.bottom = 'auto';
-            tabButtonContainer.style.top = `auto`;
+            tabButtonContainer.style.top = `${buttonRect.bottom}px`;
+            tabButtonContainer.style.bottom = `auto`;
         }
     };
 
